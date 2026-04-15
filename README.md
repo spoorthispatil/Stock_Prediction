@@ -1,17 +1,17 @@
-# 📈 Advanced Stock Prediction & Analysis System
+#  Advanced Stock Prediction & Analysis System
 
 > **Minor Project — Paid Internship**
 > Author: **Spoorthi S Patil** | Version: **2.1** | Platform: **Google Colab / Python**
 
 ---
 
-## 🌅 Overview
+##  Overview
 
 A dual-model machine learning pipeline that predicts short-term stock prices using 3 years of historical market data, three technical indicators, and an interactive command-line interface. The system trains both an **XGBoost** and a **Bidirectional LSTM** model, automatically selects the better performer, and outputs next-day predictions alongside rolling 7-day forecasts — complete with confidence scores, trend signals, and human-readable reasoning.
 
 ---
 
-## 🚀 Features
+##  Features
 
 | Feature | Description |
 |---|---|
@@ -27,7 +27,7 @@ A dual-model machine learning pipeline that predicts short-term stock prices usi
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Language:** Python 3.10+
 - **Data Source:** Yahoo Finance via `yfinance`
@@ -38,7 +38,7 @@ A dual-model machine learning pipeline that predicts short-term stock prices usi
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ```bash
 pip install yfinance xgboost tensorflow scikit-learn matplotlib pandas numpy joblib
@@ -51,7 +51,7 @@ pip install yfinance xgboost tensorflow scikit-learn matplotlib pandas numpy job
 
 ---
 
-## ▶️ Usage
+##  Usage
 
 ### Run in Google Colab
 1. Upload `stock_predictions_minor.py` to your Colab session
@@ -74,7 +74,7 @@ python stock_predictions_minor.py
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 stock_predictions_minor.py       ← Main script
@@ -85,7 +85,7 @@ saved_models/
 
 ---
 
-## 🔬 Technical Indicators
+##  Technical Indicators
 
 ### MA10 — 10-Day Moving Average
 Simple average of the last 10 closing prices. Smooths daily noise to reveal the short-term trend direction.
@@ -104,7 +104,7 @@ Difference between the 12-day and 26-day Exponential Moving Averages.
 
 ---
 
-## 🤖 Model Details
+## Model Details
 
 ### XGBoost Regressor
 ```
@@ -135,7 +135,7 @@ Input is the raw 3D sequence: `(1, TIME_STEPS=20, FEATURES=8)`.
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 | Metric | Formula | Best For |
 |---|---|---|
@@ -147,7 +147,7 @@ Input is the raw 3D sequence: `(1, TIME_STEPS=20, FEATURES=8)`.
 
 ---
 
-## 💡 Sample Output
+##  Sample Output
 
 ```
 ══════════════════════════════════════════════════
@@ -175,13 +175,13 @@ Input is the raw 3D sequence: `(1, TIME_STEPS=20, FEATURES=8)`.
 
 ---
 
-## ⚠️ Disclaimer
+##  Disclaimer
 
 This project is built for **educational purposes** as part of an academic internship. Stock price predictions are inherently uncertain and should **not** be used as financial advice. The models make simplified assumptions and do not account for macroeconomic events, earnings surprises, or market sentiment.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 - Add Transformer / Attention-based architecture
 - Include sentiment analysis from financial news (NLP pipeline)
@@ -191,6 +191,6 @@ This project is built for **educational purposes** as part of an academic intern
 
 ---
 
-## 📄 License
+##  License
 
 This project was created for internship evaluation purposes. All rights reserved © Spoorthi S Patil.
