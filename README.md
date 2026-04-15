@@ -156,7 +156,7 @@ Input is the raw 3D sequence: `(1, TIME_STEPS=20, FEATURES=8)`.
   Current Price  : $248.72
   Predicted Next : $253.15  (+1.78%)
   Confidence     : 78.4%
-  Trend Signal   : 📈 Bullish (Short-term)
+  Trend Signal   :  Bullish (Short-term)
   Reason         : Based on MACD is positive (Bullish crossover)
                    and Price holding above 10-day MA (Upward momentum)
 ══════════════════════════════════════════════════
